@@ -15,7 +15,7 @@ public class DeleteBooking {
                 .delete()
                 .then()
                 .assertThat()
-                .statusCode(201) //Createdaaaaa
+                .statusCode(201) //Created
                 .log().all();
     }
 }
