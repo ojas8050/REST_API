@@ -2,11 +2,10 @@ package Reqres;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 
-public class CreateUserMC {
+public class ExtractResponceBody {
     public static void main(String[] args) {
-        RestAssured
+        Object responceBody = RestAssured
                 .given()
                 .baseUri("https://reqres.in/")
                 .basePath("api/users")
@@ -15,13 +14,13 @@ public class CreateUserMC {
                         "    \"job\": \"leader\"\n" +
                         "}")
                 .contentType(ContentType.JSON)
-                .when()
                 .post()
                 .then()
-                .log()
-                .all()
-                .statusCode(201);
-
-        //responce.then().statusCode(201).log().all();
+                .statusCode(201)
+                .extract()
+                .body()
+                .asPrettyString();
+                //.statusCode();
+        System.out.println(responceBody);
     }
 }
