@@ -1,0 +1,73 @@
+[
+  {
+    "FirstName": "Tanmay",
+    "LastName": "Patil",
+    "ContactNo": "1234567890",
+    "Email": "tanmaypatil@xyz.com",
+    "Gender": "Male"
+  },
+  {
+    "FirstName": "Ojas",
+    "LastName": "Chopade",
+    "ContactNo": "90898987",
+    "Email": "Ojas@xyz.com",
+    "Gender": "Male"
+  },
+  {
+    "FirstName": "Chandini",
+    "LastName": "Kumari",
+    "ContactNo": "987667890",
+    "Email": "Chand@xyz.com",
+    "Gender": "Female"
+  },
+  {
+    "FirstName": "Fouziya",
+    "LastName": "XYZ",
+    "ContactNo": "9876543212",
+    "Email": "Fouz@xyz.com",
+    "Gender": "Female"
+  },
+  {
+    "FirstName": "Pooja",
+    "LastName": "Reddy",
+    "ContactNo": "9089786756",
+    "Email": "Pooo@xyz.com",
+    "Gender": "Female"
+  },
+  {
+    "FirstName": "Pavan",
+    "LastName": "Kumar",
+    "ContactNo": "980989789",
+    "Email": "Pavi@xyz.com",
+    "Gender": "Male"
+  },
+  {
+    "FirstName": "Hema",
+    "LastName": "Param",
+    "ContactNo": "789065434",
+    "Email": "Hems@xyz.com",
+    "Gender": "Female"
+  },
+  {
+    "FirstName": "Dinesh",
+    "LastName": "Kumar",
+    "ContactNo": "234567890",
+    "Email": "Dinesh@xyz.com",
+    "Gender": "Male"
+  },
+  {
+    "FirstName": "Dadus",
+    "LastName": "Kadam",
+    "ContactNo": "6787909876",
+    "Email": "Dadus@xyz.com",
+    "Gender": "Male"
+  },
+  {
+    "FirstName": "Shreeman",
+    "LastName": "Legend",
+    "ContactNo": "78909876789",
+    "Email": "Legend@xyz.com",
+    "Gender": "Male"
+  }
+
+]
